@@ -31,7 +31,7 @@ contract Click {
             clickerAddresses.push(msg.sender);
         }
         clickCountOfClickers[msg.sender] += 1;
-    }
+    }g
 
     function getTotalDamage() public view returns (uint) {
         address[] memory temp = clickerAddresses;
