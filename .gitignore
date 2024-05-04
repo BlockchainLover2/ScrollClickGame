@@ -9,7 +9,7 @@ out/
 
 # Docs
 docs/
-/test
+test/
 
 
 # Dotenv file
